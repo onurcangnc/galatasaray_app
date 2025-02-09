@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-test-deploy:
-    # Self-hosted Windows runner'ınızı seçtiğinizden emin olun. Runner etiketiniz "windows" ise:
+    # Self-hosted Windows runner'ınızın etiketlerinin "self-hosted" ve "windows" olduğundan emin olun.
     runs-on: [self-hosted, windows]
 
     steps:
@@ -32,32 +32,22 @@ jobs:
       - name: Run Tests
         run: dotnet test --no-build --verbosity normal
 
-      - name: Publish Application
-        run: dotnet publish --configuration Release --no-build --output ./publish
+      # Uygulamayı "dotnet run" ile çalıştıracağımız için publish adımına gerek yok.
+      #- name: Publish Application
+      #  run: dotnet publish --configuration Release --no-build --output ./publish
 
       - name: Deploy Application
         shell: powershell
         run: |
-          # Hedef dizin: Uygulamanızın çalıştırılacağı konum.
-          $targetPath = "C:\runner"
-
-          # Hedef dizin yoksa oluştur.
-          if (-Not (Test-Path -Path $targetPath)) {
-            New-Item -ItemType Directory -Path $targetPath | Out-Null
-          }
-
-          Write-Host "Published dosyaları $targetPath dizinine kopyalıyor..."
-          Copy-Item -Path .\publish\* -Destination $targetPath -Recurse -Force
-
-          # Uygulama dosyasının adı (dll veya exe). Örnekte framework-dependent olarak yayınlanmış bir dll kullanıyoruz.
-          $appName = "MyDotNet9Api.dll"
-
-          # Mevcut çalışan uygulama varsa sonlandırmak (örn. aynı komutla çalışıyorsa):
-          $existingProcess = Get-Process -Name "dotnet" -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "*$appName" }
+          Write-Host "Uygulama başlatılıyor (dotnet run ile)..."
+          
+          # Mevcut çalışan uygulama varsa sonlandırmak (aynı projenin daha önce çalışıyor olması durumunda):
+          $existingProcess = Get-Process -Name "dotnet" -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "*MyDotNet9Api.dll" }
           if ($existingProcess) {
               Write-Host "Çalışan uygulama bulundu. Sonlandırılıyor..."
               $existingProcess | ForEach-Object { $_.Kill() }
           }
 
-          Write-Host "Uygulama başlatılıyor..."
-          Start-Process -FilePath "dotnet" -ArgumentList "$targetPath\$appName" -NoNewWindow
+          # Uygulamayı proje dizininde (GITHUB_WORKSPACE) dotnet run ile başlatıyoruz.
+          Write-Host "Proje dizininde dotnet run komutu çalıştırılıyor..."
+          Start-Process -FilePath "dotnet" -ArgumentList "run" -NoNewWindow -WorkingDirectory $env:GITHUB_WORKSPACE
