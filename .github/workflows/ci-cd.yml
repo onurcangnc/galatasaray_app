@@ -33,16 +33,19 @@ jobs:
 
       - name: Deploy Application
         shell: powershell
+        env:
+          Spotify__ClientId: ${{ secrets.CLIENTID }}
+          Spotify__ClientSecret: ${{ secrets.CLIENTSECRET }}
         run: |
           Write-Host "Uygulama başlatılıyor (dotnet run ile, port 5217)..."
           
-          # Mevcut çalışan uygulama varsa sonlandırmak (aynı projenin daha önce çalışıyor olması durumunda):
+          # Mevcut çalışan uygulama varsa sonlandırmak
           $existingProcess = Get-Process -Name "dotnet" -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "*MyDotNet9Api.dll" }
           if ($existingProcess) {
               Write-Host "Çalışan uygulama bulundu. Sonlandırılıyor..."
               $existingProcess | ForEach-Object { $_.Kill() }
           }
 
-          # Uygulamayı proje dizininde (GITHUB_WORKSPACE) dotnet run komutu ile, 5217 portunda başlatıyoruz.
+          # Uygulamayı başlat
           Write-Host "Proje dizininde 'dotnet run --urls http://*:5217' komutu çalıştırılıyor..."
           Start-Process -FilePath "dotnet" -ArgumentList "run --urls http://*:5217" -NoNewWindow -WorkingDirectory $env:GITHUB_WORKSPACE

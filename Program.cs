@@ -88,4 +88,10 @@ app.Use(async (context, next) =>
     await next();
 });
 
+if (app.Environment.IsDevelopment())
+{
+    var spotifyClientId = app.Configuration["Spotify:ClientId"];
+    Console.WriteLine($"Spotify Client ID mevcut mu: {!string.IsNullOrEmpty(spotifyClientId)}");
+}
+
 app.Run();
