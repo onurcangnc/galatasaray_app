@@ -1,0 +1,234 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #1a73e8;
+    --secondary-color: #5f6368;
+    --accent-color: #fbbc05;
+    --text-primary: #202124;
+    --text-secondary: #5f6368;
+    --background-light: #f8f9fa;
+    --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    --transition: all 0.3s ease;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--background-light);
+    color: var(--text-primary);
+}
+
+/* Header Styles */
+.navbar {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Search Box Styles */
+.search-container {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.search-form {
+    position: relative;
+    background: white;
+    border-radius: 24px;
+    box-shadow: var(--card-shadow);
+}
+
+.search-input {
+    border: none;
+    border-radius: 24px;
+    padding: 1rem 1.5rem;
+    width: 100%;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.search-input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+.search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+    padding: 0.5rem 1.25rem;
+    background: var(--primary-color);
+    border: none;
+    color: white;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.search-button:hover {
+    background: #1557b0;
+    transform: translateY(-50%) scale(1.02);
+}
+
+/* News Card Styles */
+.news-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.news-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: var(--card-shadow);
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.news-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.news-card-header {
+    padding: 1.5rem 1.5rem 0.5rem;
+}
+
+.news-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+.news-meta {
+    display: flex;
+    align-items: center;
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.news-meta i {
+    margin-right: 0.5rem;
+}
+
+.news-content {
+    padding: 0 1.5rem 1.5rem;
+}
+
+.news-text {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.news-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.news-link {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.75rem 1.5rem;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.news-link:hover {
+    background: #1557b0;
+    transform: scale(1.02);
+    color: white;
+}
+
+.news-link i {
+    margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-container {
+        padding: 0.5rem;
+    }
+    
+    .news-card {
+        border-radius: 12px;
+    }
+    
+    .news-card-header,
+    .news-content {
+        padding: 1rem;
+    }
+    
+    .news-title {
+        font-size: 1.1rem;
+    }
+}
+
+/* Loading Skeleton Animation */
+@keyframes loading {
+    0% { background-position: -200px 0; }
+    100% { background-position: 200px 0; }
+}
+
+.skeleton {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200px 100%;
+    animation: loading 1.5s infinite;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+.twitter-tweet {
+    margin: 10px auto !important;
+    max-width: 550px !important;
+}

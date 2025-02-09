@@ -1,0 +1,38 @@
+@using System.Globalization
+@model IEnumerable<RssItem>
+
+@foreach (var item in Model)
+{
+    <article class="bg-white rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden animate-fade-in border-l-4 border-[#FFB81C] hover:border-[#E30613]">
+        <div class="p-6">
+            <!-- Tarih Bilgisi -->
+            <div class="flex items-center space-x-2 text-sm text-gray-500 mb-4">
+                <span class="bg-gradient-to-r from-[#E30613] to-[#FFB81C] text-white px-3 py-1 rounded-full font-medium text-sm">
+                    Son Dakika
+                </span>
+                <time datetime="@item.PublishDate.ToString("yyyy-MM-dd")" class="flex items-center">
+                    <i class="far fa-clock mr-1"></i>
+                    @item.PublishDate.ToString("dd MMMM yyyy HH:mm", new CultureInfo("tr-TR"))
+                </time>
+            </div>
+
+            <!-- Tweet İçeriği -->
+            <div class="prose prose-lg max-w-none">
+                <p class="text-gray-800 leading-relaxed font-medium">
+                    @Html.Raw(item.Description)
+                </p>
+            </div>
+
+            <!-- Tweet Linki -->
+            <div class="mt-6">
+                <a href="@item.Link" 
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-[#E30613] to-[#FFB81C] text-white rounded-lg hover:from-[#FFB81C] hover:to-[#E30613] transition-all duration-300 transform hover:scale-105 shadow-md">
+                    <i class="fab fa-twitter mr-2"></i>
+                    <span>Tweeti Görüntüle</span>
+                </a>
+            </div>
+        </div>
+    </article>
+} 

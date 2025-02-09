@@ -1,0 +1,76 @@
+@model List<RssNewsApp.Models.TransferNews>
+
+<div class="min-h-screen bg-gradient-to-b from-[#A90432] to-[#FDB912] py-12 px-4 sm:px-6 lg:px-8 mt-16">
+    <div class="max-w-7xl mx-auto">
+        <div class="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-6 mb-8">
+            <h1 class="text-3xl font-bold text-[#A90432] mb-6 text-center">Galatasaray Transfer Gündemi</h1>
+            
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-[#A90432]">
+                        <tr>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                Oyuncu
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                Görüşme Durumu
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                Gönderi Sayısı
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                Olasılık
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                Piyasa Değeri
+                            </th>
+                            <th scope="col" class="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                                Tarih
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        @foreach (var item in Model)
+                        {
+                            <tr class="hover:bg-gray-50 transition-colors">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                    @item.PlayerName
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    @item.Status
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    @item.PostCount
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <div class="flex items-center">
+                                        <div class="w-16 h-2 rounded-full @GetProbabilityColor(item.Probability)"></div>
+                                        <span class="ml-2 text-sm text-gray-500">@($"{item.Probability}%")</span>
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    @($"{item.MarketValue:N2} mil. €")
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    @item.PublishDate.ToString("dd.MM.yyyy HH:mm")
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    private string GetProbabilityColor(int probability)
+    {
+        return probability switch
+        {
+            >= 75 => "bg-green-500",
+            >= 50 => "bg-yellow-500",
+            _ => "bg-red-500"
+        };
+    }
+} 

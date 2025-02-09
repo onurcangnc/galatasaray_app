@@ -1,0 +1,188 @@
+@model List<MatchFixture>
+
+<div class="mt-20">
+    @{
+        var tournaments = new Dictionary<string, string>
+        {
+            { "TSL", "Süper Lig" },
+            { "TK", "Türkiye Kupası" },
+            { "ŞL", "Şampiyonlar Ligi" },
+            { "AL", "Avrupa Ligi" },
+            { "KL", "Konferans Ligi" }
+        };
+
+        var groupedFixtures = Model.GroupBy(f => f.Competition);
+    }
+
+    @foreach (var group in groupedFixtures)
+    {
+        <div class="bg-white rounded-lg shadow-md mb-6 overflow-hidden">
+            <div class="bg-[#A90432] px-6 py-4">
+                <h2 class="text-white text-xl font-semibold">@group.Key</h2>
+            </div>
+            
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Tarih
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Saat/Skor
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Ev Sahibi
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Deplasman
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+                                Durum
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        @foreach (var fixture in group)
+                        {
+                            <tr class="hover:bg-gray-50 transition-colors">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    @fixture.Date
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+                                    @fixture.Time
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    @fixture.HomeTeam
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                    @fixture.AwayTeam
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                    @fixture.Status
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        async function updateScores() {
+            try {
+                const response = await fetch('/Fixtures/GetLiveScores');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                console.log('Raw API Response:', data); // Ham veriyi logla
+
+                // Eğer data boş array ise veya null ise
+                if (!data || !Array.isArray(data) || data.length === 0) {
+                    const container = document.querySelector('.mt-20');
+                    container.innerHTML = `
+                        <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                            <p class="text-gray-500">Gösterilecek maç bulunamadı.</p>
+                        </div>
+                    `;
+                    return;
+                }
+
+                const groupedFixtures = groupByCompetition(data);
+                updateFixtureDisplay(groupedFixtures);
+            } catch (error) {
+                console.error('Skor güncellenirken hata:', error);
+                const container = document.querySelector('.mt-20');
+                container.innerHTML = `
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <p class="text-gray-500">Maçlar yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function groupByCompetition(fixtures) {
+            // Gelen veri array değilse boş obje dön
+            if (!Array.isArray(fixtures)) {
+                console.error('Geçersiz veri formatı:', fixtures);
+                return {};
+            }
+
+            return fixtures.reduce((groups, fixture) => {
+                const competition = fixture.competition || 'Diğer';
+                if (!groups[competition]) {
+                    groups[competition] = [];
+                }
+                groups[competition].push(fixture);
+                return groups;
+            }, {});
+        }
+
+        function updateFixtureDisplay(groupedFixtures) {
+            const container = document.querySelector('.mt-20');
+            if (!container) {
+                console.error('Container bulunamadı');
+                return;
+            }
+
+            container.innerHTML = '';
+
+            if (Object.keys(groupedFixtures).length === 0) {
+                container.innerHTML = `
+                    <div class="bg-white rounded-lg shadow-md p-6 text-center">
+                        <p class="text-gray-500">Gösterilecek maç bulunamadı.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            for (const [competition, fixtures] of Object.entries(groupedFixtures)) {
+                const fixtureGroup = document.createElement('div');
+                fixtureGroup.className = 'bg-white rounded-lg shadow-md mb-6 overflow-hidden';
+                
+                fixtureGroup.innerHTML = `
+                    <div class="bg-[#A90432] px-6 py-4">
+                        <h2 class="text-white text-xl font-semibold">${competition}</h2>
+                    </div>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tarih</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Saat/Skor</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Ev Sahibi</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Deplasman</th>
+                                    <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Durum</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                ${fixtures.map(fixture => `
+                                    <tr class="hover:bg-gray-50 transition-colors">
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${fixture.date}</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">${fixture.time}</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${fixture.homeTeam}</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${fixture.awayTeam}</td>
+                                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">${fixture.status}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                `;
+                
+                container.appendChild(fixtureGroup);
+            }
+        }
+
+        // İlk yüklemede ve her 30 saniyede bir güncelle
+        document.addEventListener('DOMContentLoaded', function() {
+            updateScores();
+            setInterval(updateScores, 30000);
+        });
+    </script>
+}

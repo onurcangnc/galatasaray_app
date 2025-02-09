@@ -1,0 +1,114 @@
+﻿@using RssNewsApp.Models
+@using System.Globalization
+@model IEnumerable<RssItem>
+
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-20">
+    <!-- Arama Formu -->
+    <div class="mb-8">
+        <form method="get" class="relative group">
+            <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                <i class="fas fa-search text-gray-400 group-hover:text-blue-500 transition-colors"></i>
+            </div>
+            <input type="search" 
+                   name="searchTerm" 
+                   placeholder="Haberlerde ara..." 
+                   value="@ViewBag.SearchTerm"
+                   class="w-full pl-12 pr-4 py-4 rounded-xl border-2 border-gray-100 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 transition-all outline-none text-gray-700 placeholder-gray-400 bg-white shadow-sm hover:border-gray-200" />
+            <button type="submit" 
+                    class="absolute right-3 top-1/2 -translate-y-1/2 px-6 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg hover:from-blue-700 hover:to-indigo-700 transform hover:scale-105 transition-all duration-200 shadow-md">
+                <span class="hidden sm:inline">Ara</span>
+                <i class="fas fa-search sm:hidden"></i>
+            </button>
+        </form>
+    </div>
+
+    <!-- Haber Kartları -->
+    <div class="grid gap-6" id="newsContainer">
+        @await Html.PartialAsync("_NewsItems", Model)
+    </div>
+
+    <!-- Sayfalama -->
+    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+    {
+        <div class="mt-8 flex justify-center">
+            <button id="loadMoreBtn" 
+                    class="px-6 py-3 bg-white border border-gray-200 rounded-lg text-gray-600 hover:bg-gray-50 transition-colors"
+                    data-current-page="@ViewBag.CurrentPage"
+                    data-total-pages="@ViewBag.TotalPages">
+                <span>Daha Fazla Yükle</span>
+                <div class="hidden animate-spin ml-2" id="loadingSpinner">
+                    <i class="fas fa-circle-notch"></i>
+                </div>
+            </button>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadMoreBtn = document.getElementById('loadMoreBtn');
+            const newsContainer = document.getElementById('newsContainer');
+            const loadingSpinner = document.getElementById('loadingSpinner');
+            
+            if (loadMoreBtn) {
+                loadMoreBtn.addEventListener('click', async function() {
+                    const currentPage = parseInt(loadMoreBtn.dataset.currentPage);
+                    const totalPages = parseInt(loadMoreBtn.dataset.totalPages);
+                    const nextPage = currentPage + 1;
+                    const searchTerm = new URLSearchParams(window.location.search).get('searchTerm') || '';
+
+                    // Yükleniyor durumunu göster
+                    loadMoreBtn.disabled = true;
+                    loadingSpinner.classList.remove('hidden');
+
+                    try {
+                        const response = await fetch(`/?page=${nextPage}&searchTerm=${searchTerm}`, {
+                            headers: {
+                                'X-Requested-With': 'XMLHttpRequest'
+                            }
+                        });
+
+                        if (response.ok) {
+                            const html = await response.text();
+                            newsContainer.insertAdjacentHTML('beforeend', html);
+                            
+                            // Sayfa numarasını güncelle
+                            loadMoreBtn.dataset.currentPage = nextPage;
+
+                            // Son sayfaya ulaşıldıysa butonu gizle
+                            if (nextPage >= totalPages) {
+                                loadMoreBtn.parentElement.remove();
+                            }
+                        }
+                    } catch (error) {
+                        console.error('Haberler yüklenirken hata oluştu:', error);
+                    } finally {
+                        loadMoreBtn.disabled = false;
+                        loadingSpinner.classList.add('hidden');
+                    }
+                });
+            }
+
+            // Lazy loading için IntersectionObserver
+            const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+            
+            if ('IntersectionObserver' in window) {
+                const imageObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.classList.add('opacity-100');
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+
+                lazyImages.forEach(img => {
+                    img.classList.add('opacity-0');
+                    imageObserver.observe(img);
+                });
+            }
+        });
+    </script>
+}
