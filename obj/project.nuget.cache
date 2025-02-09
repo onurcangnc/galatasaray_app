@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s1cRgITkq0U=",
+  "dgSpecHash": "4mrYxCUv29A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\NewsBotApp.csproj",
+  "projectFilePath": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\NewsBotApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Onurcan\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Onurcan\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

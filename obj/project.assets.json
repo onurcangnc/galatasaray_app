@@ -5237,11 +5237,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\NewsBotApp.csproj",
+      "projectUniqueName": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\NewsBotApp.csproj",
       "projectName": "NewsBotApp",
-      "projectPath": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\NewsBotApp.csproj",
+      "projectPath": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\NewsBotApp.csproj",
       "packagesPath": "C:\\Users\\Onurcan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\",
+      "outputPath": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Onurcan\\AppData\\Roaming\\NuGet\\NuGet.Config"
