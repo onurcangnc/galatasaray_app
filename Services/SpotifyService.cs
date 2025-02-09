@@ -11,13 +11,17 @@ namespace RssNewsApp.Services
     {
         private readonly HttpClient _httpClient;
         private readonly IConfiguration _configuration;
+        private readonly string _clientId;
+        private readonly string _clientSecret;
         private string _accessToken = string.Empty;
         private DateTime _tokenExpiration;
 
-        public SpotifyService(HttpClient httpClient, IConfiguration configuration)
+        public SpotifyService(HttpClient httpClient, IConfiguration configuration, string clientId, string clientSecret)
         {
             _httpClient = httpClient;
             _configuration = configuration;
+            _clientId = clientId;
+            _clientSecret = clientSecret;
         }
 
         private async Task EnsureAccessTokenAsync()
@@ -25,15 +29,12 @@ namespace RssNewsApp.Services
             if (!string.IsNullOrEmpty(_accessToken) && _tokenExpiration > DateTime.UtcNow)
                 return;
 
-            var clientId = _configuration["Spotify:ClientId"];
-            var clientSecret = _configuration["Spotify:ClientSecret"];
-
-            if (string.IsNullOrEmpty(clientId) || string.IsNullOrEmpty(clientSecret))
+            if (string.IsNullOrEmpty(_clientId) || string.IsNullOrEmpty(_clientSecret))
             {
                 throw new InvalidOperationException("Spotify client credentials are not configured.");
             }
 
-            var auth = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes($"{clientId}:{clientSecret}"));
+            var auth = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes($"{_clientId}:{_clientSecret}"));
 
             var tokenRequest = new HttpRequestMessage(HttpMethod.Post, "https://accounts.spotify.com/api/token")
             {

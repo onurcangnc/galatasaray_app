@@ -7,13 +7,43 @@ using Services;
 using Microsoft.AspNetCore.RateLimiting;
 using System.Threading.RateLimiting;
 using Microsoft.AspNetCore.StaticFiles;
+using Microsoft.Extensions.Configuration;
 
 var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddHttpClient();
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IRssService, RssService>();
-builder.Services.AddScoped<ISpotifyService, SpotifyService>();
+builder.Services.AddScoped<ISpotifyService, SpotifyService>(provider =>
+{
+    var configuration = provider.GetRequiredService<IConfiguration>();
+    var httpClientFactory = provider.GetRequiredService<IHttpClientFactory>();
+    var httpClient = httpClientFactory.CreateClient();
+    string clientId, clientSecret;
+
+    if (builder.Environment.IsDevelopment())
+    {
+        clientId = configuration["Spotify:ClientId"];
+        clientSecret = configuration["Spotify:ClientSecret"];
+    }
+    else
+    {
+        // Production ortamında environment variables'ları kullan
+        clientId = Environment.GetEnvironmentVariable("CLIENTID");
+        clientSecret = Environment.GetEnvironmentVariable("CLIENTSECRET");
+    }
+    
+    if (string.IsNullOrEmpty(clientId) || string.IsNullOrEmpty(clientSecret))
+    {
+        throw new InvalidOperationException(
+            builder.Environment.IsDevelopment()
+                ? "Spotify yapılandırması eksik. Lütfen secrets.json dosyasında Spotify:ClientId ve Spotify:ClientSecret değerlerini ayarlayın."
+                : "Spotify yapılandırması eksik. Lütfen CLIENTID ve CLIENTSECRET environment değişkenlerini kontrol edin.");
+    }
+    
+    return new SpotifyService(httpClient, configuration, clientId, clientSecret);
+});
 builder.Services.AddHttpClient<IFixtureService, FixtureService>(client =>
 {
     client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0");

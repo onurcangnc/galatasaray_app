@@ -11,6 +11,9 @@ on:
 jobs:
   build-test-deploy:
     runs-on: [self-hosted, windows]
+    env:
+      CLIENTID: ${{ secrets.CLIENTID }}
+      CLIENTSECRET: ${{ secrets.CLIENTSECRET }}
 
     steps:
       - name: Checkout Code
