@@ -1,0 +1,63 @@
+name: CI/CD Pipeline for .NET 9 API on Windows 2022
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-test-deploy:
+    # Self-hosted Windows runner'ınızı seçtiğinizden emin olun. Runner etiketiniz "windows" ise:
+    runs-on: [self-hosted, windows]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      # Eğer makinenizde zaten .NET 9 SDK yüklüyse bu adımı kaldırabilirsiniz.
+      - name: Setup .NET 9 SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '9.0.x'
+
+      - name: Restore Dependencies
+        run: dotnet restore
+
+      - name: Build Project
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run Tests
+        run: dotnet test --no-build --verbosity normal
+
+      - name: Publish Application
+        run: dotnet publish --configuration Release --no-build --output ./publish
+
+      - name: Deploy Application
+        shell: pwsh
+        run: |
+          # Hedef dizin: Uygulamanızın çalıştırılacağı konum.
+          $targetPath = "C:\MyDotNet9Api"
+
+          # Hedef dizin yoksa oluştur.
+          if (-Not (Test-Path -Path $targetPath)) {
+            New-Item -ItemType Directory -Path $targetPath | Out-Null
+          }
+
+          Write-Host "Published dosyaları $targetPath dizinine kopyalıyor..."
+          Copy-Item -Path .\publish\* -Destination $targetPath -Recurse -Force
+
+          # Uygulama dosyasının adı (dll veya exe). Örnekte framework-dependent olarak yayınlanmış bir dll kullanıyoruz.
+          $appName = "MyDotNet9Api.dll"
+
+          # Mevcut çalışan uygulama varsa sonlandırmak (örn. aynı komutla çalışıyorsa):
+          $existingProcess = Get-Process -Name "dotnet" -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "*$appName" }
+          if ($existingProcess) {
+              Write-Host "Çalışan uygulama bulundu. Sonlandırılıyor..."
+              $existingProcess | ForEach-Object { $_.Kill() }
+          }
+
+          Write-Host "Uygulama başlatılıyor..."
+          Start-Process -FilePath "dotnet" -ArgumentList "$targetPath\$appName" -NoNewWindow
