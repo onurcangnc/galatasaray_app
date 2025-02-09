@@ -10,7 +10,6 @@ on:
 
 jobs:
   build-test-deploy:
-    # Self-hosted Windows runner'ınızın etiketlerinin "self-hosted" ve "windows" olduğundan emin olun.
     runs-on: [self-hosted, windows]
 
     steps:
@@ -32,14 +31,10 @@ jobs:
       - name: Run Tests
         run: dotnet test --no-build --verbosity normal
 
-      # Uygulamayı "dotnet run" ile çalıştıracağımız için publish adımına gerek yok.
-      #- name: Publish Application
-      #  run: dotnet publish --configuration Release --no-build --output ./publish
-
       - name: Deploy Application
         shell: powershell
         run: |
-          Write-Host "Uygulama başlatılıyor (dotnet run ile)..."
+          Write-Host "Uygulama başlatılıyor (dotnet run ile, port 5217)..."
           
           # Mevcut çalışan uygulama varsa sonlandırmak (aynı projenin daha önce çalışıyor olması durumunda):
           $existingProcess = Get-Process -Name "dotnet" -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "*MyDotNet9Api.dll" }
@@ -48,6 +43,6 @@ jobs:
               $existingProcess | ForEach-Object { $_.Kill() }
           }
 
-          # Uygulamayı proje dizininde (GITHUB_WORKSPACE) dotnet run ile başlatıyoruz.
-          Write-Host "Proje dizininde dotnet run komutu çalıştırılıyor..."
-          Start-Process -FilePath "dotnet" -ArgumentList "run" -NoNewWindow -WorkingDirectory $env:GITHUB_WORKSPACE
+          # Uygulamayı proje dizininde (GITHUB_WORKSPACE) dotnet run komutu ile, 5217 portunda başlatıyoruz.
+          Write-Host "Proje dizininde 'dotnet run --urls http://*:5217' komutu çalıştırılıyor..."
+          Start-Process -FilePath "dotnet" -ArgumentList "run --urls http://*:5217" -NoNewWindow -WorkingDirectory $env:GITHUB_WORKSPACE
