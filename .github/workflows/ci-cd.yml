@@ -19,22 +19,20 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      # Eğer makinenizde zaten .NET 9 SDK yüklüyse bu adımı kaldırabilirsiniz.
+      # Eğer makinenizde zaten .NET 9 SDK yüklüyse, bu adımı kaldırabilirsiniz.
       - name: Setup .NET 9 SDK
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '9.0.x'
 
       - name: Restore Dependencies
-        working-directory: ./galatasaray_app
+        # Proje dosyanız zaten repository kökünde yer alıyor.
         run: dotnet restore galatasaray_app.csproj
 
       - name: Build Project
-        working-directory: ./galatasaray_app
         run: dotnet build --configuration Release --no-restore galatasaray_app.csproj
 
       - name: Run Tests
-        working-directory: ./galatasaray_app
         run: dotnet test --no-build --verbosity normal
 
       - name: Deploy Application
@@ -45,13 +43,12 @@ jobs:
         run: |
           Write-Host "Uygulama başlatılıyor (dotnet run ile, port 5217)..."
           
-          # Mevcut çalışan uygulama varsa sonlandırmak
+          # Mevcut çalışan uygulama varsa sonlandırma
           $existingProcess = Get-Process -Name "dotnet" -ErrorAction SilentlyContinue | Where-Object { $_.Path -like "*galatasaray_app.dll" }
           if ($existingProcess) {
               Write-Host "Çalışan uygulama bulundu. Sonlandırılıyor..."
               $existingProcess | ForEach-Object { $_.Kill() }
           }
-
-          # Uygulamayı başlat (çalışma dizinini de proje dizini olarak ayarlıyoruz)
+          
           Write-Host "Proje dizininde 'dotnet run --urls http://*:5217' komutu çalıştırılıyor..."
-          Start-Process -FilePath "dotnet" -ArgumentList "run --urls http://*:5217" -NoNewWindow -WorkingDirectory "$env:GITHUB_WORKSPACE\galatasaray_app"
+          Start-Process -FilePath "dotnet" -ArgumentList "run --urls http://*:5217" -NoNewWindow -WorkingDirectory $env:GITHUB_WORKSPACE
