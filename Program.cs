@@ -20,28 +20,32 @@ builder.Services.AddScoped<ISpotifyService, SpotifyService>(provider =>
     var configuration = provider.GetRequiredService<IConfiguration>();
     var httpClientFactory = provider.GetRequiredService<IHttpClientFactory>();
     var httpClient = httpClientFactory.CreateClient();
-    string clientId, clientSecret;
+    
+    // Null kontrolü ile birlikte değerleri al
+    string? clientId = null;
+    string? clientSecret = null;
 
     if (builder.Environment.IsDevelopment())
     {
-        clientId = configuration["Spotify:ClientId"];
-        clientSecret = configuration["Spotify:ClientSecret"];
+        clientId = configuration.GetValue<string>("Spotify:ClientId");
+        clientSecret = configuration.GetValue<string>("Spotify:ClientSecret");
     }
     else
     {
-        // Production ortamında environment variables'ları kullan
         clientId = Environment.GetEnvironmentVariable("CLIENTID");
         clientSecret = Environment.GetEnvironmentVariable("CLIENTSECRET");
     }
-    
+
+    // Null kontrolü
     if (string.IsNullOrEmpty(clientId) || string.IsNullOrEmpty(clientSecret))
     {
-        throw new InvalidOperationException(
-            builder.Environment.IsDevelopment()
-                ? "Spotify yapılandırması eksik. Lütfen secrets.json dosyasında Spotify:ClientId ve Spotify:ClientSecret değerlerini ayarlayın."
-                : "Spotify yapılandırması eksik. Lütfen CLIENTID ve CLIENTSECRET environment değişkenlerini kontrol edin.");
+        var message = builder.Environment.IsDevelopment()
+            ? "Spotify yapılandırması eksik. Lütfen secrets.json dosyasında Spotify:ClientId ve Spotify:ClientSecret değerlerini ayarlayın."
+            : "Spotify yapılandırması eksik. Lütfen CLIENTID ve CLIENTSECRET environment değişkenlerini kontrol edin.";
+            
+        throw new InvalidOperationException(message);
     }
-    
+
     return new SpotifyService(httpClient, configuration, clientId, clientSecret);
 });
 builder.Services.AddHttpClient<IFixtureService, FixtureService>(client =>
