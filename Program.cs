@@ -11,32 +11,40 @@ using Microsoft.Extensions.Configuration;
 
 var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
+// User Secrets'ı ekle
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: true)
+    .AddUserSecrets<Program>(optional: false)
+    .AddEnvironmentVariables();
+
 // Add services to the container.
 builder.Services.AddHttpClient();
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IRssService, RssService>();
+builder.Services.AddHttpClient<IRssService, RssService>(client =>
+{
+    client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0");
+    client.Timeout = TimeSpan.FromSeconds(30);
+});
+
 builder.Services.AddScoped<ISpotifyService, SpotifyService>(provider =>
 {
     var configuration = provider.GetRequiredService<IConfiguration>();
     var httpClientFactory = provider.GetRequiredService<IHttpClientFactory>();
     var httpClient = httpClientFactory.CreateClient();
     
-    // Null kontrolü ile birlikte değerleri al
-    string? clientId = null;
-    string? clientSecret = null;
-
-    if (builder.Environment.IsDevelopment())
+    // Configuration değerlerini kontrol et
+    foreach (var c in configuration.AsEnumerable())
     {
-        clientId = configuration.GetValue<string>("Spotify:ClientId");
-        clientSecret = configuration.GetValue<string>("Spotify:ClientSecret");
+        Console.WriteLine($"Config: {c.Key} = {c.Value}");
     }
-    else
-    {
-        clientId = Environment.GetEnvironmentVariable("CLIENTID");
-        clientSecret = Environment.GetEnvironmentVariable("CLIENTSECRET");
-    }
-
-    // Null kontrolü
+    
+    string? clientId = configuration["Spotify:ClientId"];
+    string? clientSecret = configuration["Spotify:ClientSecret"];
+    
+    Console.WriteLine($"Okunan değerler - ClientId: {clientId}, ClientSecret: {clientSecret}");
+    
     if (string.IsNullOrEmpty(clientId) || string.IsNullOrEmpty(clientSecret))
     {
         var message = builder.Environment.IsDevelopment()
@@ -48,12 +56,14 @@ builder.Services.AddScoped<ISpotifyService, SpotifyService>(provider =>
 
     return new SpotifyService(httpClient, configuration, clientId, clientSecret);
 });
+
 builder.Services.AddHttpClient<IFixtureService, FixtureService>(client =>
 {
     client.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0");
     client.Timeout = TimeSpan.FromSeconds(30);
     client.DefaultRequestHeaders.Add("Accept", "application/json");
 });
+
 builder.Services.AddHostedService<RssBackgroundService>();
 builder.Services.AddRateLimiter(options =>
 {
@@ -68,23 +78,8 @@ builder.Services.AddRateLimiter(options =>
                 Window = TimeSpan.FromMinutes(1)
             }));
 });
-builder.Services.AddLogging(logging =>
-{
-    logging.AddConsole();
-    logging.AddDebug();
-    if (OperatingSystem.IsWindows())
-    {
-        logging.AddEventLog();
-    }
-    logging.AddFilter("Microsoft.AspNetCore.Http.Connections", LogLevel.Warning);
-});
-builder.Services.AddScoped<ITransferService, TransferService>();
 
 var app = builder.Build();
-
-// MIME types
-var provider = new FileExtensionContentTypeProvider();
-provider.Mappings[".css"] = "text/css";
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -97,7 +92,6 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
 app.UseRateLimiter();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(

@@ -368,3 +368,15 @@ C:\Users\Onurcan\Documents\Projects\NewsBotApp\obj\Debug\net8.0\refint\NewsBotAp
 C:\Users\Onurcan\Documents\Projects\NewsBotApp\obj\Debug\net8.0\NewsBotApp.pdb
 C:\Users\Onurcan\Documents\Projects\NewsBotApp\obj\Debug\net8.0\NewsBotApp.genruntimeconfig.cache
 C:\Users\Onurcan\Documents\Projects\NewsBotApp\obj\Debug\net8.0\ref\NewsBotApp.dll
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.csproj.AssemblyReference.cache
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.AssemblyInfoInputs.cache
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.AssemblyInfo.cs
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.csproj.CoreCompileInputs.cache
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.RazorAssemblyInfo.cache
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.RazorAssemblyInfo.cs
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.sourcelink.json
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.dll
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\refint\NewsBotApp.dll
+C:\Users\Onurcan\Documents\Projects\galatasaray_app\obj\Debug\net8.0\NewsBotApp.pdb

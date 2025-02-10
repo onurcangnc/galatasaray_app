@@ -1,28 +1,28 @@
 {
   "Version": 1,
-  "Hash": "48z7/fYiMiE50o3utRPXy+wqQg+zylXC+awzTU8zKEo=",
-  "Source": "NewsBotApp",
-  "BasePath": "_content/NewsBotApp",
+  "Hash": "gi8afFxDn7GH7NKkTj5AOu85RX/RrVDusGikkB5kVb0=",
+  "Source": "galatasaray_app",
+  "BasePath": "_content/galatasaray_app",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "NewsBotApp\\wwwroot",
-      "Source": "NewsBotApp",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "Name": "galatasaray_app\\wwwroot",
+      "Source": "galatasaray_app",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NewsBotApp.styles.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\galatasaray_app.styles.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/NewsBotApp",
-      "RelativePath": "NewsBotApp#[.{fingerprint}]?.styles.css",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/galatasaray_app",
+      "RelativePath": "galatasaray_app#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,19 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "myu6vu9ah1",
-      "Integrity": "PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw=",
+      "Fingerprint": "y2ujjl9doz",
+      "Integrity": "9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NewsBotApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\galatasaray_app.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NewsBotApp.bundle.scp.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\galatasaray_app.bundle.scp.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/NewsBotApp",
-      "RelativePath": "NewsBotApp#[.{fingerprint}]!.bundle.scp.css",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/galatasaray_app",
+      "RelativePath": "galatasaray_app#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -52,18 +52,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "myu6vu9ah1",
-      "Integrity": "PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw=",
+      "Fingerprint": "y2ujjl9doz",
+      "Integrity": "9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NewsBotApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\galatasaray_app.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\css\\site.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\css\\site.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -73,18 +73,18 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "9brz32l8e9",
+      "Integrity": "BfCbQ+ELBm8sCPCBBkc8rG5u1Ce5jmFkcL6Mmu88J3Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\favicon.ico",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\favicon.ico",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -101,11 +101,53 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\js\\site.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\images\\gs-logo.png",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
+      "RelativePath": "images/gs-logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "96eo3tnmlr",
+      "Integrity": "PztobRXRQSqL6MWInoLrjBNSsYHLRNaNd61xfYWcp7M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gs-logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\images\\onurcan.jpg",
+      "SourceId": "galatasaray_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
+      "RelativePath": "images/onurcan#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p43sqnrrqz",
+      "Integrity": "2YTA1D75Rt8buaYkyLRVq6VvTv9Xfj7PJcRRIQhTzlA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\onurcan.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\js\\site.js",
+      "SourceId": "galatasaray_app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -122,11 +164,11 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -143,11 +185,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -164,11 +206,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -185,11 +227,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -206,11 +248,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -227,11 +269,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -248,11 +290,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -269,11 +311,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -290,11 +332,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -311,11 +353,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -332,11 +374,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -353,11 +395,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -374,11 +416,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -395,11 +437,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -416,11 +458,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -437,11 +479,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -458,11 +500,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -479,11 +521,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -500,11 +542,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -521,11 +563,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -542,11 +584,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -563,11 +605,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -584,11 +626,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -605,11 +647,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -626,11 +668,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -647,11 +689,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -668,11 +710,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -689,11 +731,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -710,11 +752,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -731,11 +773,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -752,11 +794,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -773,11 +815,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -794,11 +836,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -815,11 +857,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -836,11 +878,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -857,11 +899,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -878,11 +920,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -899,11 +941,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -920,11 +962,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -941,11 +983,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -962,11 +1004,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -983,11 +1025,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1004,11 +1046,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1025,11 +1067,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1046,11 +1088,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1067,11 +1109,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1088,11 +1130,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1109,11 +1151,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1130,11 +1172,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1151,11 +1193,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1172,11 +1214,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1193,11 +1235,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1214,11 +1256,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1235,11 +1277,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1256,11 +1298,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1277,11 +1319,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1298,11 +1340,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery/dist/jquery.slim#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1319,11 +1361,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery/dist/jquery.slim.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1340,11 +1382,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery/dist/jquery.slim.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1361,11 +1403,11 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "SourceId": "NewsBotApp",
+      "Identity": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "galatasaray_app",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\",
-      "BasePath": "_content/NewsBotApp",
+      "ContentRoot": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\",
+      "BasePath": "_content/galatasaray_app",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -1384,8 +1426,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\css\\site.css",
+      "Route": "css/site.9brz32l8e9.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1394,7 +1436,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "4759"
         },
         {
           "Name": "Content-Type",
@@ -1402,11 +1444,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"BfCbQ+ELBm8sCPCBBkc8rG5u1Ce5jmFkcL6Mmu88J3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 11:40:56 GMT"
+          "Value": "Sun, 09 Feb 2025 20:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1416,7 +1458,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "9brz32l8e9"
         },
         {
           "Name": "label",
@@ -1424,13 +1466,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-BfCbQ+ELBm8sCPCBBkc8rG5u1Ce5jmFkcL6Mmu88J3Y="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1439,7 +1481,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "4759"
         },
         {
           "Name": "Content-Type",
@@ -1447,11 +1489,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"BfCbQ+ELBm8sCPCBBkc8rG5u1Ce5jmFkcL6Mmu88J3Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 11:40:56 GMT"
+          "Value": "Sun, 09 Feb 2025 20:10:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1461,13 +1503,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-BfCbQ+ELBm8sCPCBBkc8rG5u1Ce5jmFkcL6Mmu88J3Y="
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1512,7 +1554,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1548,8 +1590,336 @@
       ]
     },
     {
+      "Route": "galatasaray_app.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\galatasaray_app.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 07:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE="
+        }
+      ]
+    },
+    {
+      "Route": "galatasaray_app.styles.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\galatasaray_app.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 07:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE="
+        }
+      ]
+    },
+    {
+      "Route": "galatasaray_app.y2ujjl9doz.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\galatasaray_app.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 07:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y2ujjl9doz"
+        },
+        {
+          "Name": "label",
+          "Value": "galatasaray_app.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE="
+        }
+      ]
+    },
+    {
+      "Route": "galatasaray_app.y2ujjl9doz.styles.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\obj\\Debug\\net8.0\\scopedcss\\bundle\\galatasaray_app.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1133"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 07:53:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y2ujjl9doz"
+        },
+        {
+          "Name": "label",
+          "Value": "galatasaray_app.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9qkmUDgP4VGDNemikpfgplU9CJ4IjRSDreUq7Uq9CFE="
+        }
+      ]
+    },
+    {
+      "Route": "images/gs-logo.96eo3tnmlr.png",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\images\\gs-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PztobRXRQSqL6MWInoLrjBNSsYHLRNaNd61xfYWcp7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 15:44:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "96eo3tnmlr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/gs-logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PztobRXRQSqL6MWInoLrjBNSsYHLRNaNd61xfYWcp7M="
+        }
+      ]
+    },
+    {
+      "Route": "images/gs-logo.png",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\images\\gs-logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "144726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PztobRXRQSqL6MWInoLrjBNSsYHLRNaNd61xfYWcp7M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 15:44:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PztobRXRQSqL6MWInoLrjBNSsYHLRNaNd61xfYWcp7M="
+        }
+      ]
+    },
+    {
+      "Route": "images/onurcan.jpg",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\images\\onurcan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2YTA1D75Rt8buaYkyLRVq6VvTv9Xfj7PJcRRIQhTzlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 15:45:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2YTA1D75Rt8buaYkyLRVq6VvTv9Xfj7PJcRRIQhTzlA="
+        }
+      ]
+    },
+    {
+      "Route": "images/onurcan.p43sqnrrqz.jpg",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\images\\onurcan.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2YTA1D75Rt8buaYkyLRVq6VvTv9Xfj7PJcRRIQhTzlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Feb 2025 15:45:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p43sqnrrqz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/onurcan.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2YTA1D75Rt8buaYkyLRVq6VvTv9Xfj7PJcRRIQhTzlA="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1586,7 +1956,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1631,7 +2001,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1676,7 +2046,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1713,7 +2083,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.c2jlpeoesf.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1758,7 +2128,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1795,7 +2165,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1832,7 +2202,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.aexeepp0ev.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1877,7 +2247,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1914,7 +2284,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.erw9l3u2r3.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1959,7 +2329,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1996,7 +2366,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.ausgxo2sd3.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2041,7 +2411,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2078,7 +2448,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.d7shbmvgxk.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2123,7 +2493,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2160,7 +2530,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.cosvhxvwiu.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2205,7 +2575,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2242,7 +2612,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.k8d9w2qqmf.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2287,7 +2657,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2324,7 +2694,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.fvhpjtyr6v.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2369,7 +2739,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2406,7 +2776,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.b7pk76d08c.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2451,7 +2821,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2488,7 +2858,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.fsbi9cje9m.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2533,7 +2903,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2570,7 +2940,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2607,7 +2977,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.ee0r1s7dh0.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2652,7 +3022,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2689,7 +3059,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2726,7 +3096,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.jd9uben2k1.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2771,7 +3141,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2808,7 +3178,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.dxx9fxp4il.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2853,7 +3223,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.rzd6atqjts.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2898,7 +3268,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.ub07r2b239.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2943,7 +3313,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2980,7 +3350,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3017,7 +3387,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.r4e9w2rdcm.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3062,7 +3432,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.khv3u5hwcm.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3107,7 +3477,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3144,7 +3514,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.c2oey78nd0.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3189,7 +3559,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3226,7 +3596,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.lcd1t2u6c8.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3271,7 +3641,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3308,7 +3678,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.j5mq2jizvt.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3353,7 +3723,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3390,7 +3760,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.06098lyss8.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3435,7 +3805,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3472,7 +3842,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3509,7 +3879,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.nvvlpmu67g.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3554,7 +3924,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.tdbxkamptv.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3599,7 +3969,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3636,7 +4006,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3673,7 +4043,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3718,7 +4088,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3763,7 +4133,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3800,7 +4170,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3837,7 +4207,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3882,7 +4252,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.37tfw0ft22.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3927,7 +4297,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3964,7 +4334,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4009,7 +4379,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4046,7 +4416,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4083,7 +4453,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4128,7 +4498,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4165,7 +4535,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.pk9g2wxc8p.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4210,7 +4580,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4255,7 +4625,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4300,7 +4670,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4337,7 +4707,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.6pdc2jztkx.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4382,7 +4752,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4419,7 +4789,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4464,7 +4834,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4501,7 +4871,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.iovd86k7lj.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4546,7 +4916,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4583,7 +4953,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4620,7 +4990,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.kbrnm935zg.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4665,7 +5035,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4702,7 +5072,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4747,7 +5117,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4784,7 +5154,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4821,7 +5191,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.y7v9cxd14o.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4866,7 +5236,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4911,7 +5281,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4948,7 +5318,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.h1s4sie4z3.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4993,7 +5363,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5030,7 +5400,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5075,7 +5445,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5112,7 +5482,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.0j3bgjxly4.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5157,7 +5527,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5194,7 +5564,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5239,7 +5609,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5276,7 +5646,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5321,7 +5691,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5366,7 +5736,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5403,7 +5773,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5448,7 +5818,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5485,7 +5855,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5530,7 +5900,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5567,7 +5937,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.83jwlth58m.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5612,7 +5982,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5649,7 +6019,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5686,7 +6056,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.mrlpezrjn3.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5731,7 +6101,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5768,7 +6138,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.lzl9nlhx6b.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5813,7 +6183,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.ag7o75518u.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5858,7 +6228,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5895,7 +6265,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5932,7 +6302,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5977,7 +6347,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.0i3buxo5is.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6022,7 +6392,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6059,7 +6429,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6096,7 +6466,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6133,7 +6503,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.o1o13a6vjx.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6178,7 +6548,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ttgo8qnofa.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6223,7 +6593,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.2z0ns9nrw6.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6268,7 +6638,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6305,7 +6675,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.87fc7y1x7t.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6350,7 +6720,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6387,7 +6757,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.map",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6424,7 +6794,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.slim.min.muycvpuwrr.js",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6469,7 +6839,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6514,7 +6884,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\galatasaray_app\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6546,170 +6916,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
-        }
-      ]
-    },
-    {
-      "Route": "NewsBotApp.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NewsBotApp.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 12:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw="
-        }
-      ]
-    },
-    {
-      "Route": "NewsBotApp.myu6vu9ah1.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\NewsBotApp.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 12:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "myu6vu9ah1"
-        },
-        {
-          "Name": "label",
-          "Value": "NewsBotApp.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw="
-        }
-      ]
-    },
-    {
-      "Route": "NewsBotApp.myu6vu9ah1.styles.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NewsBotApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 12:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "myu6vu9ah1"
-        },
-        {
-          "Name": "label",
-          "Value": "NewsBotApp.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw="
-        }
-      ]
-    },
-    {
-      "Route": "NewsBotApp.styles.css",
-      "AssetFile": "C:\\Users\\Onurcan\\Documents\\Projects\\NewsBotApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NewsBotApp.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1128"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Feb 2025 12:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PqkZWO0OWmgl+mMTBENG6mXoeN2nKZcU+YODGYNX6Cw="
         }
       ]
     }

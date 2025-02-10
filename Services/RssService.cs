@@ -43,8 +43,15 @@ namespace RssNewsApp.Services
             try 
             {
                 string feedUrl = _config.GetValue<string>("RSSFeeds:Transfers") ?? "";
-                using var client = new HttpClient();
-                var response = await client.GetStringAsync(feedUrl);
+                
+                // Absolute URL kontrolü yap
+                if (!Uri.TryCreate(feedUrl, UriKind.Absolute, out var uri))
+                {
+                    throw new InvalidOperationException($"Geçersiz RSS feed URL'i: {feedUrl}");
+                }
+
+                // Yeni HttpClient oluşturmak yerine inject edileni kullan
+                var response = await _httpClient.GetStringAsync(uri);
                 
                 var xmlDoc = new XmlDocument();
                 xmlDoc.LoadXml(response);
@@ -57,8 +64,6 @@ namespace RssNewsApp.Services
                     foreach (XmlNode item in items)
                     {
                         var description = item.SelectSingleNode("description")?.InnerText ?? "";
-                        
-                        // Transfer bilgilerini description'dan parse et
                         var playerInfo = ParseTransferInfo(description);
                         
                         rssItems.Add(new RssItem
@@ -89,26 +94,35 @@ namespace RssNewsApp.Services
         {
             try
             {
-                string feedUrl = _config.GetValue<string>("RSSFeeds:News") ?? "";
-                using var stream = await _httpClient.GetStreamAsync(feedUrl);
-                using var reader = XmlReader.Create(stream);
-                var feed = SyndicationFeed.Load(reader);
+                var feedUrl = _config.GetValue<string>("RSSFeeds:News") ?? 
+                    throw new InvalidOperationException("RSS News feed URL'i yapılandırılmamış");
+                    
+                // RSS feed'i string olarak al
+                var response = await _httpClient.GetStringAsync(feedUrl);
                 
+                var xmlDoc = new XmlDocument();
+                xmlDoc.LoadXml(response);
+                
+                var items = xmlDoc.SelectNodes("//item");
                 _newsCache.Clear();
-                foreach (var item in feed.Items)
+                
+                if (items != null)
                 {
-                    _newsCache.Add(new RssItem
+                    foreach (XmlNode item in items)
                     {
-                        Title = item.Title.Text,
-                        Description = item.Summary.Text,
-                        Link = item.Links.FirstOrDefault()?.Uri.ToString() ?? string.Empty,
-                        PublishDate = item.PublishDate.DateTime
-                    });
+                        _newsCache.Add(new RssItem
+                        {
+                            Title = item.SelectSingleNode("title")?.InnerText ?? string.Empty,
+                            Description = item.SelectSingleNode("description")?.InnerText ?? string.Empty,
+                            Link = item.SelectSingleNode("link")?.InnerText ?? string.Empty,
+                            PublishDate = DateTime.Parse(item.SelectSingleNode("pubDate")?.InnerText ?? DateTime.Now.ToString())
+                        });
+                    }
                 }
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "RSS feed güncellenirken hata oluştu");
+                _logger.LogError(ex, "RSS güncelleme hatası");
                 throw;
             }
         }
@@ -117,9 +131,11 @@ namespace RssNewsApp.Services
         {
             try
             {
-                string feedUrl = _config.GetValue<string>("RSSFeeds:Transfers") ?? "";
-                using var client = new HttpClient();
-                var response = await client.GetStringAsync(feedUrl);
+                var feedUrl = _config.GetValue<string>("RSSFeeds:Transfers") ?? 
+                    throw new InvalidOperationException("RSS Transfer feed URL'i yapılandırılmamış");
+
+                // Inject edilen HttpClient'ı kullan
+                var response = await _httpClient.GetStringAsync(feedUrl);
                 
                 var xmlDoc = new XmlDocument();
                 xmlDoc.LoadXml(response);

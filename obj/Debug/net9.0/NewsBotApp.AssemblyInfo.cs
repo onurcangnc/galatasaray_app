@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("742a643bc7de415fa66c0e544d68ce94")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("NewsBotApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+407753aedacffb4e1d31338e01177e5bb0e90ef6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b418fc8db18176e5b31572b2c07f552b0981a1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("NewsBotApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NewsBotApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
