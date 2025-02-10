@@ -33,7 +33,7 @@ jobs:
         run: dotnet build --configuration Release --no-restore galatasaray_app.csproj
 
       - name: Run Tests
-        run: dotnet test --no-build --verbosity normal
+        run: dotnet test galatasaray_app.csproj --no-build --verbosity normal
 
       - name: Deploy Application
         shell: powershell
